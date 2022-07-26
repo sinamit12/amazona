@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main {
+  flex: 1;
+}
+.btn-primary{
+  background-color: rgb(223, 223, 13);
+  color: black;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rating span{
+  color: gold;
+}
+.product {
+  border: 1px #404040 solid;
+  margin: 0.5rem;
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.img-large{
+  max-width: 100%;
+}
